@@ -345,23 +345,38 @@ i{
 }
 
 
-@media only screen and (max-width:320px) {
-
-}
-
-
-
-.products .items .one .item {
+.products .items .item .one{
     background-image: url(NORDVPN.png);
     width: 100%;
     height: 100%;
-    background-position:center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+
+.products .items .item .two{
+    background-image: url(NORDLOCKER.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.products .items .item .three{
+    background-image: url(NORDPASS.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
 .products .items .item:hover{
     scale: 1.05;
 }
+
+
