@@ -23,10 +23,11 @@ body{
     width: 100%;
 }
 
+
 .logo{
     width: 130px;
     height: 100px;
-    background-image: url(attachment_114583999.jfif);
+    background-image: url(LOGO.jfif);
     background-position: center;
     background-size: cover;
     cursor: pointer;
@@ -121,6 +122,7 @@ a{
     background-color: #d9e1f8;
     cursor: pointer;
     border-radius: 10px;
+    transition: all 0.5s;
 }
 
 .contact{
@@ -340,5 +342,26 @@ i{
         height: 250px;
     }
 
+}
 
+
+@media only screen and (max-width:320px) {
+
+}
+
+
+
+.products .items .one .item {
+    background-image: url(NORDVPN.png);
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.products .items .item:hover{
+    scale: 1.05;
 }
