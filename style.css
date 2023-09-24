@@ -81,7 +81,7 @@ a{
 .right{
     width: 600px;
     height: 600px;
-    background-image: url(ONE.jpg);
+    background-image: url(IMAGE\ 1.jpg);
     background-position: center;
     background-size: cover;
     mix-blend-mode: multiply;
@@ -225,6 +225,11 @@ i{
     a{
         font-size: 13px;
     }
+
+    .products .items{
+        grid-template-columns:auto auto;
+        grid-template-rows: 150px 150px;
+    }
     
 }
 
@@ -320,6 +325,19 @@ i{
 
 }
 
+@media only screen and (max-width: 400px) {
+
+    .products .items{
+        grid-template-columns: auto;
+        grid-template-rows: 150px 150px 150px 150px 150px 150px  ;
+    }
+
+    
+    .contact{
+        margin-top: 600px;
+    }
+
+}
 
 
 
@@ -331,7 +349,6 @@ i{
         align-items: center;
         justify-content: center;
     }
-
 }
 
 
